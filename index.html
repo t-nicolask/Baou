@@ -1,0 +1,233 @@
+<!DOCTYPE html> 
+
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8"> 
+    	<!--<Permet de lire les caractère spéciaux>-->	
+    <meta name="Baou Website">
+        <link rel="icon" type="image/png" href="images/blogo.gif" />
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--<Permet de calculer la taille de l'écran>-->
+    <title>Baou.io</title>
+    	<!--<Fait un titre d'onglet>-->
+    <link href="design/style.css" rel="stylesheet">	
+  </head>
+    <div  id="navbar">
+      	  <a href="#home" id="logo">
+        	<img src="images/blogo.gif">
+        </a>
+        <div id="navbar-right">
+            <a href="#réparer">Devis instantané</a>
+            <a href="#Fonctionnement">Fonctionnement</a>
+
+            <a href="#contact">Contact</a>
+                        <a href="#popup2" class="button-hard-blue">Entreprise</a>
+            								<div id="popup2" class="overlay">
+								<div class="popup">
+									<h2>Coming soon.</h2>
+									<a class="close" href="#">&times;</a>
+								</div>
+							</div>
+				</div>
+        </div>
+    </div>	
+  <body>
+  	<div class="banner" id="home">  	
+	  	<div class="container">
+	  		<h1>Baou.</h1>
+	  		<h2>Répare 100% de vos objets en 1 journée.</h2>
+	  		<p>Ordinateurs, écrans, machines à laver, téléphones, montres, écouteurs... tout ça se répare. Baou, c'est ma boîte à outil en ligne qui vous permet de tout réparer, en deux clics, au meilleur prix, en un rien de temps. </p>
+	  	</div>
+  	</div>
+   
+  	<div class="section-white">
+		<div class="container">
+			<h1>
+				Où se trouve votre objet à réparer ?
+			</h1>
+			<div class="cards">
+				<div class="card-location">
+					<img src="images/placeholder.svg">
+					<p>
+						<input type="text" name="location" placeholder="Rentre votre adresse ici." size="20 ">
+					</p>
+						<div class="box">
+							<a class="button" href="#popup1">Confirmer</a>
+						</div>
+
+							<div id="popup1" class="overlay">
+								<div class="popup">
+									<h2>Baou est disponible.</h2>
+									<a class="close" href="#">&times;</a>
+									<div class="content">
+										Les services de Baou sont disponibles dans votre zone.
+									</div>
+								</div>
+							</div>
+				</div>
+			</div>
+		</div>	
+		<div class="container">
+		  	<h1>
+		  		Que voulez-vous réparer ?
+		  	</h1>
+			<div class="cards">
+				<a href="#réparer">
+				<div class="card-product">	
+				  			<h2>Objet léger</h2>
+				  			<p>Il faut moins de deux personnes pour le porter. Ex : montre, téléphone, batterie.</p>
+				</div>
+				</a>
+				<a href="#réparer">
+				<div class="card-product">	
+				  			<h2>Objet lourd</h2>
+				  			<p>Il faut plus de deux personnes pour le porter. Ex : machine à laver, lave-vaisselle.</p>				  		
+				</div>
+				</a>
+			</div>
+		</div>  	
+	</div>
+
+
+	<div class="section-mission">
+		<div class="container">
+			<h1>
+				Une mission claire à construire ensemble : mettre fin à l'obsolescence.
+			</h1>
+			<video width="700" height="300" controls>
+				  <source src="images/obsolescence.mp4" type="video/mp4">
+				</video>
+		</div>
+	</div>
+
+	  	<div class="section-white" id="Fonctionnement">
+		<div class="container">
+			<h1>
+				Baou, ça fonctionne bien. 
+			</h1>
+			<div class="cards">
+					<div class="card-step-original">	
+						<img src="images/firststep.svg">					
+						<h2>1. Commander votre réparation</h2>
+						<p>Dîtes à Baou pourquoi votre objet ne marche plus et validez le devis de réparation s'il vous convient. Vous pouvez le faire directement sur notre site en ligne ou par téléphone.</p>
+					</div>
+					<div class="card-step-original">	
+							<img src="images/secondstep.svg">
+							<h2>2. Baou opère sa magie.</h2>
+							<p>Nous récupérons et réparons près de chez vous. Vous recevre les notifications de chaque étape directement par e-mail. </p>
+					</div>
+					<div class="card-step-original">
+						<img src="images/delivery.svg">
+						<h2>3. Recevez votre objet réparé le lendemain.</h2>
+						<p>Ca y est, votre objet a une deuxième vie, un beau geste pour la planète.</p>		
+					</div>	
+			</div>
+		</div>
+
+	  	<div class="section-mission">
+		<div class="container">
+			<h1>
+				Baou, c'est un univers <bold>d'exemples<bold> de réparations possibles. 
+			</h1>
+			<div class="card-step">
+					<div class="card-step-vertical">	
+						<img src="images/washing-machine.png">					
+						<h2>Réparer sa machine à laver.</h2>
+						<p>Les machines à laver cassent le plus souvent à cause d'un faux contact. Les techniciens de Baou pourront venir chez vous, comprendre la raison de la casse et rendre votre machine comme neuve pour moins de 75 €.</p>
+					</div>
+					<div class="card-step-vertical">	
+							<img src="images/smartphone.png">
+							<h2>Remplacer son écran de téléphone.</h2>
+							<p>La vitre de votre smartphoen s'est cassée ? Baou vous le répare en moins d'une journée et à moindre coût. En moyenne, nous pouvons vous assurer une réparation pour 55 €. </p>
+					</div>
+					<div class="card-step-vertical">
+						<img src="images/television.png">
+						<h2>Une télévision qui déraille ?</h2>
+						<p>Imaginez, vous avez acheté une télé dernier cri et un pixel est manquant au bout de 6 mois ? Baou vient chercher votre télé et la rapporte le lendemain comme neuve. </p>		
+					</div>	
+					<div class="card-step-vertical">
+						<img src="images/watch.png">
+						<h2>Des aiguilles fixées, c'est toujours mieux.</h2>
+						<p>Grâce à notre réseau d'horlogers, plsu de problème pour prendre soin de votre montre. Profitez de l'expertise Baou pour quelques deniers.</p>		
+					</div>	
+			</div>
+		</div>
+
+
+	  	<div class="section-white">
+		<div class="container">
+			<h1>
+				Baou, ce sont des promesses claires. 
+			</h1>
+			<div class="cards-important">
+					<div class="card-important">
+						<img src="images/best-price.png">
+						<h2>Un prix juste</h2>
+					</div>
+					<div class="card-important">
+						<img src="images/clock.png">
+						<h2>Un devis transparant et rapide</h2>
+					</div>
+					<div class="card-important">
+						<img src="images/guarantee-certificate.png">
+						<h2>Les réparations sont garanties 6 mois.</h2>
+					</div>
+				
+			</div>
+		</div>
+
+
+
+<div class="typeform-widget" id="réparer" data-url="https://form.typeform.com/to/l5oQUsF4?typeform-medium=embed-snippet" style="width: 100%; height: 600px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+
+  <footer>
+
+        <div class="contenu-footer">
+
+            <div class="bloc footer-services">
+                <h3>Nos Services</h3>
+                <ul class="liste-services">
+                    <li><a href="#">Réparation d'objets légers</a></li>
+                    <li><a href="#">Réparation d'objets lourds</a></li>
+                    <li><a href="#">Notre mode de calcul</a></li>
+                </ul>
+            </div>
+
+            <div class="bloc footer-contact" id="contact">
+                <h3>Restons en contact</h3>
+                <p>+33 6 46 46 04 43</p>
+                <p>supportclient@baou.com</p>
+                <p>6 rue de l'invention, 75007, Paris</p>
+            </div>
+
+            <div class="bloc footer-horaires">
+                <h3>Les horaires</h3>
+                <ul class="liste-horaires">
+                    <li>✔️ Lun 9h-19h</li>
+                    <li>✔️ Mar 9h-19h</li>
+                    <li>✔️ Mer 9h-19h</li>
+                    <li>✔️ Jeu 9h-19h</li>
+                    <li>✔️ Ven 9h-19h</li>
+                    <li>✔️ Sam 9h-19h</li>
+                    <li>❌ Dim fermé</li>
+                </ul>
+            </div>
+
+            <div class="bloc footer-lieux">
+                <h3>Nos réseaux</h3>
+                <ul class="liste-lieu">
+                    <li>Paris</li>
+                    <li>Paris Proche couronne</li>
+                    <li>Bordeaux</li>
+                </ul>
+            </div>
+
+        </div>
+
+    </footer>
+
+  </body>
+
+</html>

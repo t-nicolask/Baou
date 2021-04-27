@@ -1,0 +1,14 @@
+.button-light-blue {
+	background-color: #00ffa2;
+	padding: 10px 10px;
+}
+
+.button-hard-blue {
+	background-color:  #3262ff;
+	padding-left: 10px;
+	color: white;
+	border-radius: 10px;
+	width: 90px;
+	margin-left: 5px;
+	font-weight: bold;
+}
